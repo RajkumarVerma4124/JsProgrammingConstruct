@@ -71,8 +71,7 @@ function unitConversion() {
                 console.log("Area of " + plotCount + " such plots is: " + totalAcres);
                 break;
             case 7:
-                seqPrograms.getSequencePrograms();
-                break;
+                return;
             default:
                 console.log("Wrong Choice");
                 continue;
