@@ -5,8 +5,8 @@ function numToUnit() {
     let number = parseInt(prompt("Enter a number between 1 to 999999 etc : "));
     let length = number.toString().length;
     if (length == 1) {
-        let unit = number % 10
-        console.log("Unit is :" + unit)
+        let unit = Math.floor(number % 10);
+        console.log("Unit is :" + unit);
     } else if (length == 2) {
         let unit = Math.floor(number % 10);
         console.log("Unit is :" + unit);

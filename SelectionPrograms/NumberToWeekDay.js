@@ -11,7 +11,7 @@ function numToWeekDay() {
         } else if (number % 7 == 3) {
             console.log("Wednesday")
         } else if (number % 7 == 4) {
-            console.log("Thurday")
+            console.log("Thursday")
         } else if (number % 7 == 5) {
             console.log("Friday")
         } else if (number % 7 == 6) {
