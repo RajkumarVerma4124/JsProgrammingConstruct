@@ -5,11 +5,11 @@ let magicNum = require("./MagicNumber");
 let gambling = require("./Gambling");
 let powNum = require("./PowerOfNumUsingWhile");
 
-//Function to call repetetions programs functions(UC1-UC6)
+//Function to call repetetions programs functions(UC1-UC4)
 class RepetetionUsingWhile {
     static getRepetetionsPgUsingWhile() {
         //Displaying welcome message
-        console.log("Welcome To The Repetetions Programs")
+        console.log("Welcome To The Repetetions Programs Using While Loop")
         while (true) {
             console.log("1: Flip Coins Till Win \n2: Magic Number \n3: Gambling Simulation \n4: Power Of Number Two Using While \n5: Go Back");
             let choice = parseInt(prompt("Enter a choice from above: "));

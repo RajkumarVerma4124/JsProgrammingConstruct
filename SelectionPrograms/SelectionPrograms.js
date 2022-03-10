@@ -13,7 +13,7 @@ let numToWeekSC = require("./NumberToWeekUsingSC");
 let unitSC = require("./UnitUsingSC");
 
 class Selection {
-    //Function to call selection programs functions(UC1-UC4 && UC5-UC8)
+    //Function to call selection programs functions(UC1-UC11)
     static getSelectionPrograms() {
         //Displaying welcome message
         console.log("Welcome To The Selection Programs")

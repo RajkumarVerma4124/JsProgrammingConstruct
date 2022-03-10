@@ -4,11 +4,11 @@ let palCheckNum = require("./PalindromeCheck");
 let primePalCheck = require("./PrimePalindrome");
 let temp = require("./Temprature");
 
-//Function to call repetetions programs functions(UC1-UC6)
+//Function to call repetetions programs functions(UC1-UC3)
 class FunctionsPrograms {
     static getFunctionsPrograms() {
         //Displaying welcome message
-        console.log("Welcome To The Repetetions Programs")
+        console.log("Welcome To The Functions Programs")
         while (true) {
             console.log("1: Check Palindrome Number \n2: Check Number Is Prime And Palindrome \n3: Temprature Conversion \n4: Go Back");
             let choice = parseInt(prompt("Enter a choice from above: "));

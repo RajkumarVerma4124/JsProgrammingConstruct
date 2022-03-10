@@ -5,6 +5,7 @@ let selPrograms = require("./SelectionPrograms/SelectionPrograms");
 let repPgWithForLoop = require("./RepetetionProgramsForLoop/RepetitionProgramsForLoop");
 let repPgUsingWhile = require("./RepetetionProgramsWhileLoop/RepetitionProgramUsingWhile");
 let functionPg = require("./FunctionsPrograms/FunctionPrograms");
+let arrayPg = require("./ArrayPrograms/ArrayPrograms");
 
 class MainPrograms {
     //Function to call the programming constructs programs
@@ -12,7 +13,7 @@ class MainPrograms {
         //Displaying Welcome Message
         console.log("Welcome To The Programming Constructs Of javascript")
         while (true) {
-            console.log("1: Sequence Programs \n2: Selection Programs \n3: Repetition Programs Using For Loop \n4: Repetition Programs Using While Loop \n5: Function Programs \n6: Exit")
+            console.log("1: Sequence Programs \n2: Selection Programs \n3: Repetition Programs Using For Loop \n4: Repetition Programs Using While Loop \n5: Function Programs \n6: Array Programs \n7: Exit")
             let choice = parseInt(prompt("Enter a choice from above: "));
             switch (choice) {
                 case 1:
@@ -31,6 +32,9 @@ class MainPrograms {
                     functionPg.FunctionsPrograms.getFunctionsPrograms();
                     break;
                 case 6:
+                    arrayPg.ArrayPrograms.getArrayPrograms();
+                    break;
+                case 7:
                     process.exit(1)
                     break;
                 default:

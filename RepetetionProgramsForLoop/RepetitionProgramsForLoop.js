@@ -11,7 +11,7 @@ let pFactor = require("./PrimeFactorization");
 class RepetetionUsingForLoop {
     static getRepetetionsPrograms() {
         //Displaying welcome message
-        console.log("Welcome To The Repetetions Programs")
+        console.log("Welcome To The Repetetions Programs Using For Loop")
         while (true) {
             console.log("1: Power Of Number \n2: Harmonic Number \n3: Check Prime Number \n4: Print Prime Numbers In Range \n5: Factorial \n6: Prime Factorization \n7: Go Back");
             let choice = parseInt(prompt("Enter a choice from above: "));
